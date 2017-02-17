@@ -77,6 +77,7 @@ public class InterfazModificarEquipo extends javax.swing.JFrame {
 
         botonGuardar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonGuardar.setText("Guardar");
+        botonGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonGuardarActionPerformed(evt);
@@ -84,6 +85,7 @@ public class InterfazModificarEquipo extends javax.swing.JFrame {
         });
 
         botonLimpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/limpiar.png"))); // NOI18N
+        botonLimpiar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonLimpiarActionPerformed(evt);

@@ -67,7 +67,7 @@ public class InterfazModificarJugador extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         textNombre = new javax.swing.JTextField();
         textEdad = new javax.swing.JTextField();
-        comboPosicion = new javax.swing.JComboBox<>();
+        comboPosicion = new javax.swing.JComboBox<String>();
         textEquipo = new javax.swing.JTextField();
         botonElegir = new javax.swing.JButton();
         botonGuardar = new javax.swing.JButton();
@@ -87,11 +87,12 @@ public class InterfazModificarJugador extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel4.setText("Equipo:");
 
-        comboPosicion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Portero", "Defensa", "Medio", "Delantero" }));
+        comboPosicion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Portero", "Defensa", "Medio", "Delantero" }));
 
         textEquipo.setEditable(false);
 
         botonElegir.setText("+");
+        botonElegir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonElegir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonElegirActionPerformed(evt);
@@ -100,6 +101,7 @@ public class InterfazModificarJugador extends javax.swing.JFrame {
 
         botonGuardar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonGuardar.setText("Guardar");
+        botonGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonGuardarActionPerformed(evt);
@@ -107,6 +109,7 @@ public class InterfazModificarJugador extends javax.swing.JFrame {
         });
 
         botonLimpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/limpiar.png"))); // NOI18N
+        botonLimpiar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonLimpiarActionPerformed(evt);
@@ -201,8 +204,10 @@ public class InterfazModificarJugador extends javax.swing.JFrame {
                 String nombre=getTextNombre().getText();
                 int edad = Integer.parseInt(getTextEdad().getText());
                 String posicion = getComboPosicion().getSelectedItem().toString();
+                if(j.getEquipo()!=null){
+                    j.getEquipo().getJugadores().remove(j);
+                }
                 Equipo e;
-                j.getEquipo().getJugadores().remove(j);
                 if (getTextEquipo().getText().contentEquals("")) {
                     e=null;
                     aux=new Jugador(id, nombre, edad, posicion);

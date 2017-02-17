@@ -158,6 +158,7 @@ public class InterfazGestion extends javax.swing.JFrame {
         botonFichar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonFichar.setForeground(new java.awt.Color(0, 0, 204));
         botonFichar.setText("Fichar jugador");
+        botonFichar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonFichar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonFicharActionPerformed(evt);
@@ -167,6 +168,7 @@ public class InterfazGestion extends javax.swing.JFrame {
         botonDespedir.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonDespedir.setForeground(new java.awt.Color(255, 0, 0));
         botonDespedir.setText("Despedir jugador");
+        botonDespedir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonDespedir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonDespedirActionPerformed(evt);

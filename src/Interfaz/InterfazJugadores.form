@@ -225,6 +225,9 @@
                   <Font name="Tahoma" size="12" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Insertar"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonInsertarActionPerformed"/>
@@ -261,6 +264,9 @@
             <Component class="javax.swing.JButton" name="botonElegir">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Elegir equipo"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonElegirActionPerformed"/>
@@ -275,6 +281,9 @@
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/imagenes/limpiar.png"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
                 </Property>
               </Properties>
               <Events>
@@ -361,7 +370,6 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                       <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="3" attributes="0">
@@ -380,7 +388,7 @@
                                   <Component id="textEquipoJugador1" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="textPosicionJugador1" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="33" max="32767" attributes="0"/>
+                              <EmptySpace pref="51" max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="botonModificar" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="botonEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -497,6 +505,9 @@
                   <Color blue="0" green="cc" red="0" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Buscar por Id"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonBuscarActionPerformed"/>
@@ -516,6 +527,9 @@
                   <Color blue="33" green="0" red="ff" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Eliminar jugador"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonEliminarActionPerformed"/>
@@ -530,6 +544,9 @@
                   <Color blue="ff" green="0" red="0" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Modificar jugador"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonModificarActionPerformed"/>
@@ -539,6 +556,9 @@
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                   <Image iconType="3" name="/imagenes/limpiar.png"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
                 </Property>
               </Properties>
               <Events>

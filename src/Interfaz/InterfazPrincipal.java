@@ -46,6 +46,7 @@ public class InterfazPrincipal extends javax.swing.JFrame {
         botonEquipos.setBackground(new java.awt.Color(153, 255, 153));
         botonEquipos.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonEquipos.setText("Gestionar equipos");
+        botonEquipos.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonEquipos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonEquiposActionPerformed(evt);
@@ -55,6 +56,7 @@ public class InterfazPrincipal extends javax.swing.JFrame {
         botonJugadores.setBackground(new java.awt.Color(153, 255, 153));
         botonJugadores.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonJugadores.setText("Gestionar jugadores");
+        botonJugadores.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonJugadores.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonJugadoresActionPerformed(evt);

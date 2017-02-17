@@ -236,6 +236,7 @@ public class InterfazJugadores extends javax.swing.JFrame {
 
         botonInsertar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonInsertar.setText("Insertar");
+        botonInsertar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonInsertar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonInsertarActionPerformed(evt);
@@ -251,6 +252,7 @@ public class InterfazJugadores extends javax.swing.JFrame {
         comboPosicionJuagdor.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Portero", "Defensa", "Medio", "Delantero" }));
 
         botonElegir.setText("Elegir equipo");
+        botonElegir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonElegir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonElegirActionPerformed(evt);
@@ -260,6 +262,7 @@ public class InterfazJugadores extends javax.swing.JFrame {
         textEquipoJugador.setEditable(false);
 
         botonLimpiarIns.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/limpiar.png"))); // NOI18N
+        botonLimpiarIns.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonLimpiarIns.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonLimpiarInsActionPerformed(evt);
@@ -392,6 +395,7 @@ public class InterfazJugadores extends javax.swing.JFrame {
         botonBuscar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         botonBuscar.setForeground(new java.awt.Color(0, 204, 0));
         botonBuscar.setText("Buscar por Id");
+        botonBuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonBuscarActionPerformed(evt);
@@ -403,6 +407,7 @@ public class InterfazJugadores extends javax.swing.JFrame {
         botonEliminar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         botonEliminar.setForeground(new java.awt.Color(255, 0, 51));
         botonEliminar.setText("Eliminar jugador");
+        botonEliminar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonEliminarActionPerformed(evt);
@@ -412,6 +417,7 @@ public class InterfazJugadores extends javax.swing.JFrame {
         botonModificar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         botonModificar.setForeground(new java.awt.Color(0, 0, 255));
         botonModificar.setText("Modificar jugador");
+        botonModificar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonModificar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonModificarActionPerformed(evt);
@@ -419,6 +425,7 @@ public class InterfazJugadores extends javax.swing.JFrame {
         });
 
         botonLimpiarMod.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/limpiar.png"))); // NOI18N
+        botonLimpiarMod.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonLimpiarMod.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonLimpiarModActionPerformed(evt);
@@ -480,7 +487,6 @@ public class InterfazJugadores extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addComponent(jLabel7)
-                .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -497,7 +503,7 @@ public class InterfazJugadores extends javax.swing.JFrame {
                             .addComponent(jLabel12)
                             .addComponent(textEquipoJugador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(textPosicionJugador1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(botonModificar)
                             .addComponent(botonEliminar)))

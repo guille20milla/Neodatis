@@ -203,6 +203,7 @@ public class InterfazEquipos extends javax.swing.JFrame {
 
         botonInsertar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonInsertar.setText("Insertar");
+        botonInsertar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonInsertar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonInsertarActionPerformed(evt);
@@ -210,6 +211,7 @@ public class InterfazEquipos extends javax.swing.JFrame {
         });
 
         botonLimpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/limpiar.png"))); // NOI18N
+        botonLimpiar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonLimpiarActionPerformed(evt);
@@ -313,6 +315,7 @@ public class InterfazEquipos extends javax.swing.JFrame {
         jScrollPane2.setViewportView(tablaEquipos1);
 
         botonLimpiar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/limpiar.png"))); // NOI18N
+        botonLimpiar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonLimpiar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonLimpiar1ActionPerformed(evt);
@@ -322,6 +325,7 @@ public class InterfazEquipos extends javax.swing.JFrame {
         botonBuscar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         botonBuscar.setForeground(new java.awt.Color(51, 204, 0));
         botonBuscar.setText("Buscar por id");
+        botonBuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonBuscarActionPerformed(evt);
@@ -332,6 +336,7 @@ public class InterfazEquipos extends javax.swing.JFrame {
         botonGestion.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         botonGestion.setForeground(new java.awt.Color(255, 255, 0));
         botonGestion.setText("Fichar/Despedir jugadores");
+        botonGestion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonGestion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonGestionActionPerformed(evt);
@@ -341,6 +346,7 @@ public class InterfazEquipos extends javax.swing.JFrame {
         botonEliminar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         botonEliminar.setForeground(new java.awt.Color(255, 0, 51));
         botonEliminar.setText("Eliminar equipo");
+        botonEliminar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonEliminarActionPerformed(evt);
@@ -350,6 +356,7 @@ public class InterfazEquipos extends javax.swing.JFrame {
         botonModificar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         botonModificar.setForeground(new java.awt.Color(0, 0, 255));
         botonModificar.setText("Modificar equipo");
+        botonModificar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         botonModificar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonModificarActionPerformed(evt);
