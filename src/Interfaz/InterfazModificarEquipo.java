@@ -26,6 +26,8 @@ public class InterfazModificarEquipo extends javax.swing.JFrame {
         this.i = i;
         this.e = e;
         initComponents();
+        getTextNombre().setText(i.getTextNombreEquipo1().getText());
+        getTextFundacion().setText(i.getTextFundacionEquipo1().getText());
         setLocationRelativeTo(null);
         setVisible(true);
     }

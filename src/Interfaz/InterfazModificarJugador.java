@@ -27,6 +27,9 @@ public class InterfazModificarJugador extends javax.swing.JFrame {
         this.i = i;
         this.j = j;
         initComponents();
+        getTextNombre().setText(i.getTextNombreJugador1().getText());
+        getTextEdad().setText(i.getTextEdadJugador1().getText());
+        getTextEquipo().setText(i.getTextEquipoJugador1().getText());
         setLocationRelativeTo(null);
         setVisible(true);
     }
